@@ -1,0 +1,275 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Pagina contenida en un div "box" para mantener la resolución 960px*/
+.box{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*******************************Head*******************************/
+/*Head es una row que contiene el logo y los menús principal y log in*/
+#head{
+    position: relative;
+    margin: 0 auto;
+}
+
+/*Menu "log in"*/
+#login-menu{
+    font-size: 15px;
+    width: 175px;
+    margin-left: 355px;
+    margin-top: 10px;
+}
+#login-menu li a{
+    padding-left: 10px;
+}
+ /*Menu principal*/
+#main-menu{
+    width: 520px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/*Estilos generales para toso los menús de la página*/
+ul{
+    list-style-type: none;
+    
+}
+li {
+    display: inline;
+    padding-left: 5px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    font-weight: bold;
+}
+li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+/*Titulo del contenido*/
+#title{
+    margin-top: 5px;
+    padding-left: 15px;
+    color:rgb(45, 72, 153);
+}
+
+/*Row que contiene el menú secundario y el de idiomas*/
+#middle-row{
+    position: relative;
+    margin: 0 auto;
+}
+
+/*Menu secundario*/
+#second-menu li{
+    padding-right: 7px;
+}
+
+/*Menu de idioma*/
+#language p{
+    float: left;
+    padding-right: 10px;
+    color: rgb(87, 86, 86);
+}
+
+/*******************************Contenido*******************************/
+/*Content es una Row que separa con columnas de bootstrap el contenido principal y el aside*/
+#content{ 
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/*Contenido principal*/
+#program{
+    text-align: left;
+}
+#program h2{   
+    font-weight: bold;
+    color: rgb(68, 215, 235);
+}
+#program p{
+    margin-right: 200px;
+}
+#program-img{
+    float: right;
+    clear: both;
+}
+
+#schedule h5{
+    font-weight: bold;
+    color: rgb(45, 72, 153);
+}
+
+#spaces h5{
+    font-weight: bold;
+    color: rgb(45, 72, 153);
+}
+
+/*Contenedor de los posits*/
+#posits div{
+    width: 250px;
+    margin: 15px;
+    padding: 3px;
+    float: left;
+    -webkit-box-shadow: 0 15px 15px -15px rgba(43, 43, 44, 0.8);
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.8); 
+    border-radius: 3px;   
+}
+#uno,#tres{
+    transform: rotate(5deg);
+    background-color:  rgb(253, 246, 184);
+}
+#dos{
+    background-color:  rgb(250, 204, 177);
+}
+#cuatro{
+    background-color:  rgb(216, 233, 245);
+}
+#cinco{
+    transform: rotate(-6deg);
+    background-color:  rgb(234, 206, 253);
+}
+#seis{
+    background-color:  rgb(245, 240, 176);
+}
+#siete{
+    transform: rotate(2deg);
+    background-color:  rgb(214, 248, 176);
+}
+#ocho{
+    background-color:  rgb(219, 179, 245);
+}
+#nueve{
+    transform: rotate(-2deg);
+    background-color:  rgb(167, 205, 248);
+}
+#diez{
+    background-color: rgb(250, 204, 177);
+}
+
+/*Pie del contenido*/
+#partners{
+    clear: both;
+    margin-bottom: 10px;
+}
+#partners h2{
+    font-weight: bold;
+    color: rgb(68, 215, 235);
+}
+
+/*******************************Aside*******************************/
+
+/*Botón de registro*/
+#register{
+    width: 300px;
+    background-color: rgb(68, 215, 235);
+    border-radius: 5px;
+}
+#register button{
+    background-color:forestgreen;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 3px 1px rgb(51, 51, 51);
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 0;
+}
+#register p{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    color: rgb(45, 72, 153);
+}
+
+/*About us*/
+#about{
+    width: 300px;
+}
+#about h5{
+    font-weight: bold;
+    color: rgb(45, 72, 153);
+}
+
+/*Lista con imágenes*/
+#benefits{
+    width: 300px;
+    font-size: 15px;
+}
+#benefits img{
+    float: left;
+    margin-right: 5px;
+}
+
+/*Lista en forma de posit*/
+#check-list h5{
+    padding-top: 10px;
+    font-weight: bold;
+    color: maroon;
+}
+#check-list{
+    background-color: rgb(253, 246, 184);
+    width: 275px;
+    margin-top: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 15px 15px -15px rgba(43, 43, 44, 0.8);
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.8);
+    transform: rotate(2deg);
+}
+#check-list img{
+    float: left;
+}
+#check-list p{
+    margin: 0;
+}
+#check-list-text{
+    padding-right: 10px;
+    padding-bottom: 10px; 
+}
+
+/*Botones de compartir*/
+#share{
+    width: 275px;
+    margin-top: 20px;}
+
+#share button{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+#identi button{
+    background-color: rgb(67, 113, 253);
+    text-align: left;
+    
+    
+}
+#twitter button{
+    background-color: rgb(68, 215, 235);
+    text-align: left;
+}
+#twitter button img{
+    margin-right: 35px;
+}
+
+
+/*******************************Footer*******************************/
+.footer{
+    background-color: slategray;
+    width: 100%;
+    height: 150px;
+}
+
