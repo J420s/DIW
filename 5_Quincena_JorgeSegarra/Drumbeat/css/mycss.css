@@ -10,8 +10,20 @@ body {
     padding: 0;
 }
 
+.ml15 {
+    margin-left: 15px;
+}
+
+.mt7 {
+    margin-top: 7px;
+}
+
 .pt10 {
     padding-top: 10px;
+}
+
+.pt50 {
+    padding-top: 50px;
 }
 
 .m0 {
@@ -20,6 +32,10 @@ body {
 
 .font-size20 {
     font-size: 20px;
+}
+
+.font15 {
+    font-size: 15px;
 }
 
 .font-bold {
@@ -59,4 +75,10 @@ li a {
 li a:hover {
     text-decoration: none;
     color: grey;
+}
+
+.posit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 16rem;
 }
