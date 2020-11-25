@@ -18,20 +18,22 @@
 <body>
 
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="main">
             <div class="col-md-10">
-                <div class="row " id="head-row">
+
+                <!-------------------------------------**** Header ***------------------------------------------>
+                <div class="row">
                     <div class="col-md-5 mt-5">
                         <img src="img/drumbeat_logo.png" class="img-fluid">
                     </div>
                     <div class="col-md-7 mt-5">
                         <div class="row justify-content-end">
-                            <div class="col-md-2 p0">
+                            <div class="col-md-2 p-0">
 
                                 <button class="btn btn-sm btn-primary" type="button">Sign up</button>
 
                             </div>
-                            <div class="col-md-2 p0">
+                            <div class="col-md-2 p-0">
 
                                 <button class="btn btn-sm btn-success" type="button">Log in</button>
 
@@ -39,12 +41,12 @@
                         </div>
                         <div class="row ">
                             <div class="col-md ">
-                                <nav class="navbar navbar-expand-lg navbar-light p0" id="first-menu">
+                                <nav class="navbar navbar-expand-lg navbar-light p-0" id="first-menu">
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#burguer-1" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                     <div class="collapse navbar-collapse" id="burguer-1">
-                                        <div class="navbar-nav font-size20 font-bold">
+                                        <div class="navbar-nav font-size20 bold">
                                             <a class="nav-item nav-link" href="#">about</a>
                                             <a class="nav-item nav-link" href="#">projects</a>
                                             <a class="nav-item nav-link" href="#">projects</a>
@@ -58,6 +60,9 @@
                         </div>
                     </div>
                 </div>
+                <!--------------------------------------*** /Header ***----------------------------------------->
+
+                <!--------------------------------------*** Title ***------------------------------------------->
                 <div class="row" id="title-row">
                     <div class="col">
                         <div id="title">
@@ -65,14 +70,17 @@
                         </div>
                     </div>
                 </div>
+                <!--------------------------------------*** /Title ***------------------------------------------>
+
+                <!--------------------------------------*** Second Menu ***------------------------------------->
                 <div class="row">
                     <div class="col-md-9">
-                        <nav class="navbar navbar-expand-lg navbar-light p0 " id="second-menu">
+                        <nav class="navbar navbar-expand-lg navbar-light p-0 " id="second-menu">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#burguer-2" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="burguer-2">
-                                <div class="navbar-nav font-bold">
+                                <div class="navbar-nav bold">
                                     <a class="nav-item nav-link" href="#">Festival</a>
                                     <a class="nav-item nav-link" href="#">Program</a>
                                     <a class="nav-item nav-link" href="#">Participants</a>
@@ -85,8 +93,8 @@
                         </nav>
                     </div>
                     <div class="col-md-3">
-                        <label class="mt7">language: </label>
-                        <div class="btn-group btn-group-sm ml15" role="group" aria-label="Basic example">
+                        <label class="mt-1 light-gray">language: </label>
+                        <div class="btn-group btn-group-sm ml-2" role="group">
                             <button type="button" class="btn btn-secondary">en</button>
                             <button type="button" class="btn btn-secondary">ca</button>
                             <button type="button" class="btn btn-secondary">es</button>
@@ -94,8 +102,11 @@
 
                     </div>
                 </div>
-                <div class="row" id="content-row">
-                    <!------------------------* Main Content *-------------------------->
+                <!--------------------------------------*** /Second Menu ***------------------------------------>
+
+                <!--------------------------------------*** Content ***----------------------------------------->
+                <div class="row">
+                    <!-----------------------** Main Content **------------------------->
                     <div class="col-md-8" id="main-content">
                         <!------------------* Program *------------------->
                         <div class="row" id="program-row">
@@ -112,9 +123,9 @@
                                 <img src="img/program.png" class="img-fluid pt-md-5">
                             </div>
                         </div>
-                        <!------------------* /Program *------------------->
+                        <!------------------* /Program *------------------>
 
-                        <!------------------* Schedule *------------------->
+                        <!------------------* Schedule *------------------>
                         <div class="row" id="schedule-row">
                             <div class="col-md">
                                 <div id="schedule">
@@ -125,10 +136,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!------------------* /Schedule *------------------->
+                        <!------------------* /Schedule *----------------->
 
-                        <!------------------* Festival *------------------->
-                        <div class="row">
+                        <!------------------* Festival *------------------>
+                        <div class="row" id="festival-row">
                             <div class="col-md">
                                 <div id="spaces">
                                     <h5>Festival Spaces</h5>
@@ -137,10 +148,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!------------------* /Festival *------------------->
+                        <!------------------* /Festival *----------------->
 
-                        <!------------------* Posits *------------------->
-                        <div class="row">
+                        <!------------------* Posits *-------------------->
+                        <div class="row" id="posits-row">
                             <!--------------* Posits 1 *--------------->
                             <div class="col-md">
                                 <div class="card mx-auto posit bg-pink rotate-2">
@@ -213,36 +224,43 @@
                         </div>
                         <!------------------* /Posits *------------------->
 
-                        <div class="row">
+                        <!------------------* Partners *------------------>
+                        <div class="row" id="partners-row">
                             <div class="col-md">
                                 <div id="partners">
-                                    <p>You'll find a full list of activities confirmed and proposed for Drumbeat Festival spaces on the <strong><a href="#">activities wiki page</a></strong> </p>
+                                    <p>You'll find a full list of activities confirmed and proposed for Drumbeat Festival spaces on the <strong><a href="#">activities wiki page</a></strong>
+                                    </p>
                                     <h2>In Partnership With</h2>
                                 </div>
                             </div>
                         </div>
+                        <!------------------* /Partners *----------------->
                     </div>
-                    <!------------------------* /Main Content *-------------------------->
+                    <!-----------------------** /Main Content **------------------------>
 
-                    <!----------------------------* Aside *------------------------------>
-                    <div class="col-md-4 p0" id="aside-content">
+                    <!-----------------------** Aside **-------------------------------->
+                    <div class="col-md-4 p-0" id="aside-content">
+
+                        <!------------------* Register *------------------->
                         <div class="row">
                             <div class="col-md">
                                 <div class="card mx-auto bg-blue border-light" style="width: 100%">
                                     <div class="card-body text-center">
-                                        <a href="#" class="btn btn-success btn-lg btn-block font-bold">Register</a>
+                                        <a href="#" class="btn btn-success btn-lg btn-block bold">Register</a>
                                         <p class="card-text font15">...or find out how to <strong><a href="#">get more
                                                     involved</a></strong></p>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!------------------* /Register *------------------>
+
+                        <!------------------* About *---------------------->
                         <div class="row">
                             <div class="col-md">
                                 <div class="card border-light">
                                     <div class="card-body">
-                                        <h4 class="card-title">What is all about?</h4>
+                                        <h4 class="card-title dark-blue bold">What is all about?</h4>
                                         <p class="card-text">Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas,
                                             muy popular durante el Renacimiento.
                                         </p>
@@ -250,53 +268,61 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md d-inline-flex mt-4 ml-3">
-                                <img src="img/benefit_p2pu.png">
-                                <span class="ml-1 font15">Learn how to organize a <strong>Peer 2 Peer University
-                                        course.</strong></span>
+                        <!------------------* /About *--------------------->
+
+                        <!------------------* Benefits *------------------->
+                        <div id="benefits">
+                            <div class="row">
+                                <div class="col-md d-inline-flex mt-4 ml-3">
+                                    <img src="img/benefit_p2pu.png">
+                                    <span class="ml-1 font15">Learn how to organize a <strong>Peer 2 Peer University
+                                            course.</strong></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md d-inline-flex mt-4 ml-3">
+                                    <img src="img/benefit_creds.png">
+                                    <span class="ml-1 font15">Help build a '<strong>digital backpack</strong>' to track
+                                        credentials for online learners.</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md d-inline-flex mt-4 ml-3">
+                                    <img src="img/benefit_hackbus.png">
+                                    <span class="ml-1 font15">Convert a public square into a learning lab with the
+                                        Hackbus.</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md d-inline-flex mt-4 ml-3">
+                                    <img src="img/benefit_teaching.png">
+                                    <span class="ml-1 font15">Trade ideas about <strong>teaching the open
+                                            web.</strong></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md d-inline-flex mt-4 ml-3">
+                                    <img src="img/benefit_hack.png">
+                                    <span class="ml-1 font15">Share <strong>best practices</strong> for open web
+                                        hackers.</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md d-inline-flex mt-4 ml-3">
+                                    <img src="img/benefit_wikipedia.png">
+                                    <span class="ml-1 font15">Integrate <strong>Wikipedia</strong> into your learning
+                                        project.</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md d-inline-flex mt-4 ml-3">
-                                <img src="img/benefit_creds.png">
-                                <span class="ml-1 font15">Help build a '<strong>digital backpack</strong>' to track
-                                    credentials for online learners.</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md d-inline-flex mt-4 ml-3">
-                                <img src="img/benefit_hackbus.png">
-                                <span class="ml-1 font15">Convert a public square into a learning lab with the
-                                    Hackbus.</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md d-inline-flex mt-4 ml-3">
-                                <img src="img/benefit_teaching.png">
-                                <span class="ml-1 font15">Trade ideas about <strong>teaching the open
-                                        web.</strong></span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md d-inline-flex mt-4 ml-3">
-                                <img src="img/benefit_hack.png">
-                                <span class="ml-1 font15">Share <strong>best practices</strong> for open web
-                                    hackers.</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md d-inline-flex mt-4 ml-3">
-                                <img src="img/benefit_wikipedia.png">
-                                <span class="ml-1 font15">Integrate <strong>Wikipedia</strong> into your learning
-                                    project.</span>
-                            </div>
-                        </div>
+                        <!------------------* /Benefits *------------------->
+
+                        <!------------------* Big posit *------------------->
                         <div class="row justify-content-center">
                             <div class="col-md-10 mt-4">
-                                <div class="card rotate bg-sand">
+                                <div class="card rotate2 bg-sand">
                                     <div class="card-body p-2">
-                                        <h4 class="card-title">Who should come?</h4>
+                                        <h4 class="card-title dark-red bold">Who should come?</h4>
 
                                         <img src="img/check.png">
                                         <span>Open textbox authors and remixers</span><br>
@@ -334,25 +360,34 @@
                                 </div>
                             </div>
                         </div>
+                        <!------------------* /Big posit *------------------>
+
+                        <!------------------* Share *----------------------->
                         <div class="row justify-content-center pb-2">
                             <div class="col-md p-0 text-center">
                                 <div class="btn-group ">
-                                    <a href="#" class="btn btn-identi btn-lg font-bold font15 mt-4 " id="identi">
+                                    <a href="#" class="btn btn-identi btn-lg bold font15 mt-4 " id="identi">
                                         <img src="img/identica.png"> <span class="text-center">Share on Identi.ca</span>
                                     </a>
                                 </div>
                                 <div class="btn-group">
-                                    <a href="#" class="btn btn-twitter btn-lg font-bold font15 mt-4" id="identi">
+                                    <a href="#" class="btn btn-twitter btn-lg bold font15 mt-4" id="identi">
                                         <img src="img/twitter.png"> <span class="text-center">Tweet this</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <!----------------------------* /Aside *----------------------------->
+                        <!------------------* Share *----------------------->
                     </div>
+                    <!-----------------------** /Aside **------------------------------->
+
                 </div>
+                <!--------------------------------------*** /Content ***---------------------------------------->
+
             </div>
         </div>
+
+        <!--------------------------------------*** Footer ***------------------------------------------>
         <div class="row bg-dark" id="footer">
             <div class="col-md-8">
 
@@ -361,6 +396,7 @@
 
             </div>
         </div>
+        <!--------------------------------------*** /Footer ***----------------------------------------->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

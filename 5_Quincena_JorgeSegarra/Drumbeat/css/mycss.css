@@ -1,52 +1,39 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+#title h2 {
+    color: #00747f;
+    font-weight: bold;
 }
 
-.h700 {
-    height: 700px;
+#main-content h2 {
+    color: #40bac5;
+    font-weight: bold;
 }
 
-.p0 {
-    padding: 0;
+#main-content h5 {
+    color: #00747f;
+    font-weight: bold;
 }
 
-.ml15 {
-    margin-left: 15px;
+.posit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 16rem;
+    border: 0;
+    -webkit-box-shadow: 0 15px 15px -15px rgba(43, 43, 44, 0.8);
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.8);
 }
 
-.mt7 {
-    margin-top: 7px;
+#footer {
+    height: 100px;
 }
 
-.pt10 {
-    padding-top: 10px;
-}
 
-.pt50 {
-    padding-top: 50px;
-}
-
-.m0 {
-    margin: 0;
-}
-
-.w-65 {
-    width: 65%;
-}
-
-.font-size20 {
-    font-size: 20px;
-}
+/** Utils **/
 
 .font15 {
     font-size: 15px;
 }
 
-.font20 {
-    font-size: 20px;
-}
-
-.font-bold {
+.bold {
     font-weight: bold;
 }
 
@@ -89,6 +76,18 @@ body {
     background-color: #99cdff;
 }
 
+.light-gray {
+    color: #888888;
+}
+
+.dark-red {
+    color: #950000;
+}
+
+.dark-blue {
+    color: #00747f;
+}
+
 
 /** Buttons **/
 
@@ -105,7 +104,7 @@ body {
 }
 
 
-/*Menu "log in"*/
+/** Log In **/
 
 #login-menu {
     margin-top: 10px;
@@ -113,7 +112,7 @@ body {
 }
 
 
-/*Estilos generales para toso los menús de la página*/
+/*Estilos generales para todos los menús de la página*/
 
 ul {
     list-style-type: none;
@@ -133,36 +132,4 @@ li a {
 li a:hover {
     text-decoration: none;
     color: grey;
-}
-
-.rotate {
-    transform: rotate(2deg);
-}
-
-.posit {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 16rem;
-    border: 0;
-    -webkit-box-shadow: 0 15px 15px -15px rgba(43, 43, 44, 0.8);
-    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.8);
-}
-
-#main-content h2 {
-    color: #40bac5;
-    font-weight: bold;
-}
-
-#main-content h5 {
-    color: #00747f;
-    font-weight: bold;
-}
-
-#title h2 {
-    color: #00747f;
-    font-weight: bold;
-}
-
-#footer {
-    height: 100px;
 }
