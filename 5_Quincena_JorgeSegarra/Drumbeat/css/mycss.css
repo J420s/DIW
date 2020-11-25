@@ -50,8 +50,58 @@ body {
     font-weight: bold;
 }
 
-textRight {
-    text-align: right
+.rotate2 {
+    transform: rotate(2deg);
+}
+
+.rotate-2 {
+    transform: rotate(-2deg);
+}
+
+.rotate5 {
+    transform: rotate(5deg);
+}
+
+.rotate-5 {
+    transform: rotate(-5deg);
+}
+
+
+/** Colors **/
+
+.bg-pink {
+    background-color: #ffdeda;
+}
+
+.bg-pistacho {
+    background-color: #ddefaa;
+}
+
+.bg-water {
+    background-color: #99dbe7;
+}
+
+.bg-sand {
+    background-color: #fefbc2;
+}
+
+.bg-blue {
+    background-color: #99cdff;
+}
+
+
+/** Buttons **/
+
+.btn-identi {
+    color: #fff;
+    background-color: #7db4c9;
+    background-color: #7db4c9;
+}
+
+.btn-twitter {
+    color: #fff;
+    background-color: #00bcff;
+    background-color: #00bcff;
 }
 
 
@@ -85,8 +135,34 @@ li a:hover {
     color: grey;
 }
 
+.rotate {
+    transform: rotate(2deg);
+}
+
 .posit {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 16rem;
+    border: 0;
+    -webkit-box-shadow: 0 15px 15px -15px rgba(43, 43, 44, 0.8);
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.8);
+}
+
+#main-content h2 {
+    color: #40bac5;
+    font-weight: bold;
+}
+
+#main-content h5 {
+    color: #00747f;
+    font-weight: bold;
+}
+
+#title h2 {
+    color: #00747f;
+    font-weight: bold;
+}
+
+#footer {
+    height: 100px;
 }
